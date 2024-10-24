@@ -1,4 +1,4 @@
-##steps:
+## steps:
 1. In your virtual environment, run pip install -r requirements.txt
 2. Generate captcha with your fonts:
    - put your fonts in the train_font folder
