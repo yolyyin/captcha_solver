@@ -1,0 +1,1 @@
+python ../source/generate.py --font_dir train_font --max_len 6 --count 7000 3000 --output_dir generate_output --symbols symbols.txt --mix_dir mix_font --mix_count 2000 --train_ratio 0.9

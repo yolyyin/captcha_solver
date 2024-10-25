@@ -3,3 +3,7 @@ opencv-python
 torch
 torchvision
 ultralytics
+onnx>=1.12.0
+onnxslim
+onnxruntime
+onnxruntime-gpu

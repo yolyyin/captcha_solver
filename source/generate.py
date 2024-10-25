@@ -6,7 +6,7 @@ import random
 import cv2
 import argparse
 from captcha import image as captcha_image
-from category import create_category
+from source.category import create_category
 from train_val_split import split_dataset
 
 
