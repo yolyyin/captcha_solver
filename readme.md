@@ -1,4 +1,12 @@
 ## steps:
+### update:
+steps to deploy and run on pi:
+1. cd to this local directory
+2. run ./script/deploy.sh
+3. run ./script/run_pi.sh
+4. run ./script/pull_pi_result.sh
+5. enjoy your result in "result.csv"
+### previsous
 1. In your virtual environment, run pip install -r requirements.txt
 2. Generate captcha with your fonts:
    - put your fonts in the train_font folder
