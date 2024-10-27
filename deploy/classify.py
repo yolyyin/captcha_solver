@@ -2,7 +2,7 @@ import os
 import cv2
 import torch
 from ultralytics import YOLO
-from source.category import create_category
+from category import create_category
 import argparse
 
 

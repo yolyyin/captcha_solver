@@ -1,1 +1,1 @@
-python ../source/yolo_predict.py -i D:/2024_scalable_computing/project_2/captchas -m D:/2024_scalable_computing/project_2/runs/detect/1024_yolox/weights/best.pt -o captchas_predict -s symbols.txt -n result.csv --save_plot
+python yolo_predict.py -i D:/2024_scalable_computing/project_2/captchas -m D:/2024_scalable_computing/project_2/runs/detect/1024_yolox/weights/best.pt -o captchas_predict -s symbols.txt -n result.csv --save_plot

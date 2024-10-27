@@ -5,12 +5,14 @@ import numpy
 import random
 import cv2
 import argparse
+import sys
 from captcha import image as captcha_image
-from source.category import create_category
+from category import create_category
 from train_val_split import split_dataset
 
 
 def generate_data_config(output_dir,class2cat,name="data.yaml"):
+    os.makedirs(output_dir,exist_ok=True)
     file_path = os.path.join(output_dir, name)
     with open(file_path,"w") as f:
         f.write(f"path: {output_dir}\ntrain: images/train\nval: images/val\ntest:\n\n")

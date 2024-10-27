@@ -1,1 +1,1 @@
-python ../source/yolo_train.py --model_path D:/2024_scalable_computing/project_2/runs/detect/1024_yolox/weights/best.pt --data_config_path generate_output/data.yaml --img_size 192 -n train_1024 -e 40 -b 32
+python yolo_train.py --model_path D:/2024_scalable_computing/project_2/runs/detect/1024_yolox/weights/best.pt --data_config_path generate_output/data.yaml --img_size 192 -n train_1024 -e 40 -b 32
